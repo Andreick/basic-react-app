@@ -1,10 +1,10 @@
 import './App.css';
-import ToggleButton from './ToggleButton';
+import LoginControl from './LoginControl';
 
 function App() {
   return (
     <div>
-      <ToggleButton />
+      <LoginControl hasNewMessage credit={100} hasWarning />
     </div>
   );
 }
