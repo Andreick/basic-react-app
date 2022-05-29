@@ -1,11 +1,10 @@
 import './App.css';
-import Clock from './Clock';
-import Welcome from './Welcome';
+import ToggleButton from './ToggleButton';
 
 function App() {
   return (
     <div>
-      <Clock date={new Date()} />
+      <ToggleButton />
     </div>
   );
 }
