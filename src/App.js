@@ -1,10 +1,11 @@
 import './App.css';
+import Clock from './Clock';
 import Welcome from './Welcome';
 
 function App() {
   return (
     <div>
-      <Welcome name="John" />
+      <Clock date={new Date()} />
     </div>
   );
 }
